@@ -1,0 +1,91 @@
+.banner{
+	margin:0 auto;
+	height: 260px;
+	margin-bottom: 5px;
+}
+.banner img{
+	width: 100%;
+}
+.title1{
+	padding-left: 100px;
+	padding-top: 50px;
+	font-family: "微软雅黑";	
+	color: white;
+	font-size:50px ;
+}
+.title2{
+	padding-left: 300px;
+	padding-top: 20px;
+	font-family: "微软雅黑";
+	color: white;
+	font-size:50px ;
+}
+.banner span{
+	margin: 100px;
+	color: white;
+	font: elephant;
+	font-size: 50px;
+}
+.navbar{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	margin-bottom: 10px;
+}
+.mynav{
+	margin:  0 auto;
+}
+.navbar-header{
+	padding: 10px;
+	padding-right: 300px;
+}
+.navbar-header a{
+	font-size: 28px;
+}
+.mynav li{
+	padding: 10px;
+	padding-right: calc();
+	padding-left: 30px;
+	font-size: 18px;
+}
+.container{
+	padding-top:10px ;
+	min-height: 600px;
+}
+
+.footer{
+	padding-top: 10px;
+	padding-left: 100px ;
+	height: 110px;
+	background:#f6f9fa;
+}
+.fword{
+	padding-top: 20px;
+	padding-left: 80px;
+	font-size: 20px;
+	height: 100px;
+}
+.fline{
+	height: 100px;
+	margin-left: 80px;
+	border-left:#888888 solid;
+}
+.fimg{
+	height: 100px;
+	margin-left: 150px;
+	margin-bottom:10px ;
+}
+.left{
+	float: left;
+}
+.footer:after{
+	clear: both;
+}
+#docfont{
+	margin-top: 50px;
+	font-size: 24px;
+	text-align: auto;
+	text-indent: 4em;
+	font-family:"微软雅黑";
+}

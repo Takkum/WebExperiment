@@ -1,0 +1,52 @@
+
+/* 
+ 已经在sidediv中设置过css 里如何在下面的lblScore和lblTime里覆盖之前的同名样式？
+ */
+#side{
+	width: -webkit-max();
+	float: right;
+	padding: 30px 20px;
+	font-size: 24px;
+	margin-left:10px ;
+}
+
+
+#btnStart,#btnEnd,#submitScore,#getScore,#lblScore,#lblTime{
+	width: 100px;
+	height: 50px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+
+#main{
+	width: 750px;
+	height: 550px;
+	float: right;
+	border-right: 1px solid #d3d3d3;
+	background-image:url(../img/bg_canvas.png);
+	position: relative;
+	cursor: url(../img/hammer.ico),auto;
+}
+
+#count{
+	width: 41px;
+	height: 30px;
+	position: absolute;
+	display: none;
+}
+.mouse{
+	width: 115px;
+	height: 105px;
+	position: absolute;
+	display: block;
+}
+.normal{
+	background-image:url(../img/mouse_normal.png);
+}
+.over{
+	background-image:url(../img/mouse_over.png);
+}
+.hit{
+	background-image:url(../img/mouse_hit.png);
+}
